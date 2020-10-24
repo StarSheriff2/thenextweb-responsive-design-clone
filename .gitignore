@@ -1,9 +1,0 @@
-.jsbeautifyrc
-node_modules/
-Desig-Teardown.code-workspace
-.DS_Store
-.hintrc
-.stylelintrc.json
-package-lock.json
-package.json
-thenextweb.code-workspace
