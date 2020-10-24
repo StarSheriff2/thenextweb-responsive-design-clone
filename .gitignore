@@ -7,3 +7,4 @@ Desig-Teardown.code-workspace
 package-lock.json
 package.json
 thenextweb.code-workspace
+.gitignore
