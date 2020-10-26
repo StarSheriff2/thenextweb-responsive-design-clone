@@ -4,8 +4,8 @@
   =======================
 */
 
-header {
-  background-color: rgb(83, 83, 204);
+.d-flex {
+  display: flex;
 }
 
 .top-section {
@@ -37,9 +37,56 @@ ul {
   padding: 0;
 }
 
+.hidden {
+  position: absolute;
+  left: -9999999px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background: linear-gradient(
+    rgba(85, 85, 85, 1) 1%,
+    rgba(255, 255, 255, 1) 4%
+  );
+}
+
+main {
+  margin: 8px;
+}
+
+footer {
+  background-color: black;
+  color: rgb(139, 139, 139);
+}
+
 /*
   =======================
   Typography
   =======================
 */
 
+/*
+  =======================
+  Header
+  =======================
+*/
+.white-nav {
+  background-color: transparent;
+}
+
+.logo-top {
+  background: black url(../images/logo-72x72.png) center no-repeat;
+  width: 106px;
+  height: 48px;
+}
+
+.fa-search {
+  font-size: 22px;
+  transform: scale(-1, 1);
+  color: #bfbfbf;
+}
+.fa-bars {
+  font-size: 22px;
+  color: #f42;
+}
