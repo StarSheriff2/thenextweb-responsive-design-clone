@@ -4,10 +4,42 @@
   =======================
 */
 
+header {
+  background-color: rgb(83, 83, 204);
+}
 
+.top-section {
+  background-color: plum;
+}
+
+.latest-news {
+  background-color: palegreen;
+}
+
+.latest-funding {
+  background-color: powderblue;
+}
+
+.topic-sections {
+  background-color: teal;
+}
+
+.latest-deals {
+  background-color: rgb(184, 122, 184);
+}
+
+footer {
+  background-color: rgb(162, 190, 106);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
 
 /*
   =======================
   Typography
   =======================
 */
+
