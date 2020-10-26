@@ -4,13 +4,117 @@
   =======================
 */
 
+/* <-------- Base View: Mobile ---------> */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background: white;
+  background: linear-gradient(#f1f1f1 4%, #fff 50%);
+}
+
+main {
+  margin: 8px;
+}
+
+footer {
+  background-color: black;
+  color: rgb(139, 139, 139);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .d-flex {
   display: flex;
 }
 
-.top-section {
-  background-color: plum;
+.grid {
+  display: grid;
 }
+
+.hidden {
+  position: absolute;
+  left: -9999999px;
+}
+
+/*
+  =======================
+  Typography
+  =======================
+*/
+
+h1,
+h2 {
+  font-family: Syne, Arial, Helvetica, sans-serif;
+}
+
+/*
+  =======================
+  Header
+  =======================
+*/
+
+.nav-bar-container {
+  width: 100%;
+}
+
+.white-nav {
+  background-color: white;
+  justify-content: end;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  height: 48px;
+}
+
+.logo-top {
+  background: black url(../images/logo-72x72.png) center no-repeat;
+  width: 106px;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.header-nav-buttons {
+  padding: 0 16px;
+  border-left: 1px solid #f1f1f1;
+  height: 100%;
+  align-items: center;
+}
+
+.fa-search {
+  font-size: 22px;
+  transform: scale(-1, 1);
+  color: #bfbfbf;
+}
+
+.fa-bars {
+  font-size: 22px;
+  color: #f42;
+}
+
+/*
+  =======================
+  Top Section
+  =======================
+*/
+
+.top-section-wrapper {
+  grid-gap: 8px;
+}
+
+.top-section-article {
+  background-color: rgb(153, 140, 140);
+  height: 236.2px;
+  align-content: end;
+}
+
+/* temporary BC */
+
 
 .latest-news {
   background-color: palegreen;
@@ -32,61 +136,3 @@ footer {
   background-color: rgb(162, 190, 106);
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.hidden {
-  position: absolute;
-  left: -9999999px;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  background: linear-gradient(
-    rgba(85, 85, 85, 1) 1%,
-    rgba(255, 255, 255, 1) 4%
-  );
-}
-
-main {
-  margin: 8px;
-}
-
-footer {
-  background-color: black;
-  color: rgb(139, 139, 139);
-}
-
-/*
-  =======================
-  Typography
-  =======================
-*/
-
-/*
-  =======================
-  Header
-  =======================
-*/
-.white-nav {
-  background-color: transparent;
-}
-
-.logo-top {
-  background: black url(../images/logo-72x72.png) center no-repeat;
-  width: 106px;
-  height: 48px;
-}
-
-.fa-search {
-  font-size: 22px;
-  transform: scale(-1, 1);
-  color: #bfbfbf;
-}
-.fa-bars {
-  font-size: 22px;
-  color: #f42;
-}
