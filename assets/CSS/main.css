@@ -58,7 +58,8 @@ figure {
 h1,
 h2 {
   font-family: Syne, Arial, Helvetica, sans-serif;
-  margin: 10px 0;
+  margin: 0;
+  padding: 14px 0;
   font-weight: 700;
   transform: scale(1, 1.3);
   color: #f42;
@@ -193,6 +194,8 @@ a {
 */
 
 .latest-news {
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
   grid-row-gap: 10px;
 }
 
@@ -365,24 +368,81 @@ a {
   =======================
 */
 
+.latest-deals-header {
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 li.price {
   color: black;
 }
 
-/* temporary BC */
+/*
+  =======================
+  Latest deals
+  =======================
+*/
 
-.latest-news {
-  background-color: palegreen;
+.footer {
+  background-color: black;
 }
 
-/*.topic-sections {
-  background-color: teal;
-}*/
-
-.latest-deals {
-  background-color: rgb(184, 122, 184);
+.footer-links {
+  background-color: #131313;
 }
 
-footer {
-  background-color: rgb(162, 190, 106);
+.social-media-links {
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-column-gap: 4px;
+  padding: 30px 0;
+}
+
+.links {
+  border: none;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.links a {
+  display: inline-block;
+}
+
+.links i {
+  color: white;
+  font-size: 1.7em;
+  line-height: 2em;
+}
+
+.footer-nav-links {
+  text-transform: uppercase;
+  font-family: Sarpanch, sans-serif;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-column-gap: 10px;
+  padding-bottom: 40px;
+}
+
+.footer-nav-links a {
+  color: white;
+  opacity: 0.7;
+}
+
+.copyright-para {
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5em;
+  padding: 35px 0;
+}
+
+.copyright-text img {
+  height: 9px;
+  margin-right: 4px;
+}
+
+.stackpath-logo {
+  margin-left: 4px;
 }
