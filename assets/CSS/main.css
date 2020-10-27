@@ -92,6 +92,10 @@ a {
   color: black;
 }
 
+.crossed-text {
+  text-decoration: line-through;
+}
+
 /*
   =======================
   Header
@@ -353,6 +357,16 @@ a {
   font-weight: bolder;
   display: inline-block;
   width: 1em;
+}
+
+/*
+  =======================
+  Latest deals
+  =======================
+*/
+
+li.price {
+  color: black;
 }
 
 /* temporary BC */
