@@ -191,6 +191,14 @@ a {
   grid-row-gap: 10px;
 }
 
+.article-content {
+  z-index: 3;
+}
+
+.article-title {
+  color: #fff;
+}
+
 .article-content-image {
   width: 75px;
   height: 75px;
@@ -218,6 +226,19 @@ a {
   Latest Funding
   =======================
 */
+
+.latest-funding-buttons {
+  flex-direction: column;
+  margin: 0.7em 0;
+}
+
+.latest-funding-buttons a {
+  margin-bottom: 0.7em;
+  font-size: 1.2em;
+  color: #f42;
+  font-weight: 300;
+}
+
 .article-main-link {
   display: block;
   position: relative;
@@ -263,9 +284,28 @@ a {
   border-top: 1px solid rgba(216, 145, 132, 0.918);
 }
 
-/* .article-main-link h5 {
-  margin-left: 76px;
-} */
+/*
+  =======================
+  Topic sections
+  =======================
+*/
+
+.most-popular {
+  padding-top: 75%;
+  height: 0;
+  position: relative;
+}
+
+.most-popular-img {
+  background-image: url(../images/Elon-wonka.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
 
 /* temporary BC */
 
@@ -273,9 +313,9 @@ a {
   background-color: palegreen;
 }
 
-.topic-sections {
+/*.topic-sections {
   background-color: teal;
-}
+}*/
 
 .latest-deals {
   background-color: rgb(184, 122, 184);
