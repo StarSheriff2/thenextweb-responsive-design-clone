@@ -231,6 +231,7 @@ a {
   flex-shrink: 0;
   width: 75px;
   height: 75px;
+  object-fit: cover;
 }
 
 .article-content-caption {
