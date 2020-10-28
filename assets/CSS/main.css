@@ -272,6 +272,7 @@ a {
 .startup-name {
   background-color: #f42;
   padding: 8px 0 8px 80px;
+  color: white;
 }
 
 .funding-amount-data {
@@ -322,7 +323,7 @@ a {
 }
 
 .most-popular-img {
-  background-image: url(../images/Elon-wonka.jpg);
+  background-color: rgb(153, 140, 140);
   background-size: cover;
   position: absolute;
   top: 0;
@@ -330,6 +331,16 @@ a {
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+
+.most-popular > a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  z-index: 2;
 }
 
 .most-popular h2 {
