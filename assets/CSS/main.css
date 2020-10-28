@@ -184,7 +184,7 @@ a {
 
 .mid-section {
   grid-row-gap: 60px;
-  padding: 0 16px;
+  padding: 0 16px 52px;
 }
 
 /*
@@ -327,12 +327,16 @@ a {
   width: 96px;
   display: block;
   float: right;
+  z-index: 3;
+  position: relative;
 }
 
 .latest-img img {
   object-fit: cover;
   height: 96px;
   width: 96px;
+  z-index: 1;
+  position: relative;
 }
 
 .latest span {
@@ -379,7 +383,7 @@ li.price {
 
 /*
   =======================
-  Latest deals
+  Footer
   =======================
 */
 
@@ -445,4 +449,8 @@ li.price {
 
 .stackpath-logo {
   margin-left: 4px;
+}
+
+@media (min-width: 768px) {
+
 }
