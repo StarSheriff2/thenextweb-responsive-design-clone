@@ -190,13 +190,29 @@ a {
 }
 
 .top-section-wrapper {
+  grid-template-areas:
+    "main-article"
+    "article-2"
+    "article-3";
   grid-gap: 8px;
+  grid-template-rows: repeat(3, 236.2px);
+}
+
+.main-article {
+  grid-area: main-article;
+}
+
+.article-2 {
+  grid-area: article-2;
+}
+
+.article-3 {
+  grid-area: article-3;
 }
 
 .top-section-article {
   background-color: rgb(153, 140, 140);
   padding: 8px;
-  height: 236.2px;
   align-content: end;
   color: white;
   position: relative;
@@ -551,7 +567,16 @@ li.price {
   .menu-div {
     display: none;
   }
+
+  .top-section-wrapper {
+    grid-template-areas:
+      "main-article main-article article-2"
+      "main-article main-article article-3";
+    grid-template-rows: repeat(2, 203.5px);
+  }
 }
+
+
 
 /* @media (min-width: 1024px) {
 
