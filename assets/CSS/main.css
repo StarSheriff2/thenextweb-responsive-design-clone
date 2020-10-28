@@ -176,14 +176,17 @@ a {
   z-index: 20;
 }
 
+.top-section-article h2 {
+  color: white;
+}
+
 .category {
   font-family: Sarpanch, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-.artcile-title,
-.article-title a {
+.artcile-title {
   color: #fff;
 }
 
@@ -361,7 +364,7 @@ a {
 }
 
 .latest-title {
-  color: inherit;
+  color: #f42;
   padding-bottom: 8px;
   transform: scale(1, 1.3);
   font-weight: 700;
@@ -468,5 +471,4 @@ li.price {
 }
 
 @media (min-width: 768px) {
-
 }
