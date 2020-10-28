@@ -105,24 +105,60 @@ a {
 
 .nav-bar-container {
   width: 100%;
-}
-
-.white-nav {
-  background-color: white;
-  justify-content: flex-end;
-  width: 100%;
-  align-items: center;
   position: relative;
-  height: 48px;
 }
 
 .logo-top {
   background: black url(../images/logo-72x72.png) center no-repeat;
   width: 106px;
-  height: 48px;
   position: absolute;
   left: 0;
   top: 0;
+  bottom: 0;
+}
+
+.black-nav {
+  background-color: #131313;
+  padding: 0 10px 0 122px;
+  justify-content: space-between;
+}
+
+.tablet-mw {
+  display: none;
+}
+
+.black-nav ul {
+  color: white;
+  opacity: 0.7;
+}
+
+.black-nav li {
+  font-size: 1.1em;
+  padding: 10px 6px;
+}
+
+.white-nav {
+  background-color: white;
+  justify-content: flex-end;
+  align-items: center;
+  height: 48px;
+  padding-left: 122px;
+}
+
+.page-section-links {
+  padding-left: 6px;
+}
+
+.page-section-links li {
+  font-family: Sarpanch, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin-right: 20px;
+  color: #bfbfbf;;
+}
+
+.white-nav-buttons-div {
+  flex-shrink: 0;
 }
 
 .header-nav-buttons {
@@ -316,6 +352,10 @@ a {
   =======================
 */
 
+.topic-sections {
+  grid-row-gap: 8px;
+}
+
 .most-popular {
   padding-top: 75%;
   height: 0;
@@ -413,6 +453,11 @@ a {
   justify-content: space-between;
 }
 
+.latest-deals-header span {
+  color: #f42;
+  font-size: 1.2em;
+}
+
 li.price {
   color: black;
 }
@@ -429,13 +474,13 @@ li.price {
 
 .footer-links {
   background-color: #131313;
+  padding: 0 12px 0 16px;
 }
 
 .social-media-links {
-  grid-auto-flow: column;
-  justify-content: center;
-  grid-column-gap: 4px;
+  flex-wrap: wrap;
   padding: 30px 0;
+  justify-content: center;
 }
 
 .links {
@@ -445,6 +490,7 @@ li.price {
   height: 40px;
   background-color: #333;
   text-align: center;
+  margin-right: 4px;
 }
 
 .links a {
@@ -487,5 +533,26 @@ li.price {
   margin-left: 4px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 320px) {
+  .very-tiny-screen {
+    display: none;
+  }
 }
+
+@media (min-width: 768px) {
+  .tablet-mw {
+    display: flex;
+  }
+
+  .white-nav {
+    justify-content: space-between;
+  }
+
+  .menu-div {
+    display: none;
+  }
+}
+
+/* @media (min-width: 1024px) {
+
+} */
