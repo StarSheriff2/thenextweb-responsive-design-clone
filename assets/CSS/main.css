@@ -166,6 +166,11 @@ a {
   position: relative;
 }
 
+.cover-image {
+  background-size: cover;
+  background-position: center;
+}
+
 .top-section-article-anchor {
   display: block;
   position: absolute;
