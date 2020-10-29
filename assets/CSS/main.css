@@ -199,7 +199,9 @@ a {
 }
 
 .main-article {
+  background-color: rgb(153, 140, 140);
   grid-area: main-article;
+  background-image: url(../images/Top-section-image-1.png);
 }
 
 .article-2 {
@@ -211,7 +213,6 @@ a {
 }
 
 .top-section-article {
-  background-color: rgb(153, 140, 140);
   padding: 8px;
   align-content: end;
   color: white;
@@ -630,7 +631,7 @@ li.price {
     height: auto;
   }
 
-  .latest-news-article>a {
+  .latest-news-article > a {
     display: block;
     position: relative;
     height: 0;
@@ -691,6 +692,10 @@ li.price {
 }
 
 @media (min-width: 1024px) {
+  .main-article {
+    background: url(../images/small-logo.svg) 20px 20px/50% no-repeat, linear-gradient(to top, black 10%, transparent), linear-gradient(to right bottom, rgba(255, 68, 34, 1) 20%, transparent), url(../images/Top-section-image-1.png);
+  }
+
   .latest-news {
     grid-template-columns: repeat(4, 1fr);
   }
