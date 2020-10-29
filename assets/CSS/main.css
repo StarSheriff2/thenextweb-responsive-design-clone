@@ -747,7 +747,39 @@ li.price {
     grid-template-columns: repeat(4, 1fr);
   }
 
+  .latest-funding {
+    align-items: baseline;
+  }
+
+  .latest-funding h2 {
+    grid-column: span 2;
+  }
+
+  .latest-funding-buttons {
+    grid-row: 1;
+    grid-column: span 2 / -1;
+    justify-self: end;
+  }
+
+  .latest-funding-buttons a {
+    font-weight: 600;
+  }
+
   .display-hide {
     display: block;
   }
+}
+
+/*
+  =======================
+  Miscellaneous
+  =======================
+*/
+
+.hover-orange:hover {
+  color: #f42;
+}
+
+.hover-black:hover {
+  color: black;
 }
