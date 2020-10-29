@@ -285,7 +285,7 @@ a {
   min-height: 75px;
 }
 
-.latest-news-article > a {
+.latest-news-article>a {
   display: block;
   position: absolute;
   top: 0;
@@ -632,17 +632,22 @@ li.price {
 
   .latest-news-article {
     position: relative;
-    padding: 0 0 10px 0;
+    padding: 0 0 35px 0;
     min-height: auto;
     height: auto;
   }
 
-  .latest-news-article > a {
+  .latest-news-article>a {
     display: block;
     position: relative;
     height: 0;
     width: 100%;
     padding-top: 50%;
+  }
+
+  .latest-news-title {
+    font-size: 1.2em;
+    padding-top: 4px;
   }
 
   /* Latest Funding */
@@ -672,7 +677,7 @@ li.price {
     padding-left: 10px;
   }
 
-  .latest-funding-buttons a:nth-child(3){
+  .latest-funding-buttons a:nth-child(3) {
     padding-left: 10px;
   }
 
