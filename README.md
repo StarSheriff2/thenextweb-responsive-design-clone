@@ -6,7 +6,7 @@
 
 <Insert long description here including what were the projects objectives>.
 
-![screenshot](./assets/README/#################)
+![screenshot](./assets/README/tnw-responsive-design-screenshot.jpeg)
 
 ## Built With
 
