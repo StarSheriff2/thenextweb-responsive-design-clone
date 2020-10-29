@@ -284,6 +284,7 @@ a {
 .latest-news-article {
   position: relative;
   padding-left: 85px;
+  min-height: 75px;
 }
 
 .latest-news-article > a {
