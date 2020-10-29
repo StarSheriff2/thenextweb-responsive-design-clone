@@ -276,7 +276,8 @@ a {
   grid-row-gap: 10px;
 }
 
-.latest-news h2 {
+.latest-news h2,
+.latest-deals-header {
   grid-column: 1 / -1;
 }
 
@@ -610,31 +611,23 @@ li.price {
 
   .latest-news {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 75px;
-    grid-auto-rows: 75px;
     grid-gap: 0 20px;
+    grid-template-rows: auto 1fr ;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .article-content {
+  .latest-news-article{
+    padding: 0;
+    height: auto;
     flex-direction: column;
+    width: 225px;
   }
-  
-  .article-content > a {
-    display: block;
-    position: relative;
+
+  .latest-news-article a {
     height: 0;
-    padding-top: 75px;
-    width: 75px;
-  }
-  
-  .article-content-image {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
+    padding-top: 50%;
+    width: 100%;
   }
 }
 
