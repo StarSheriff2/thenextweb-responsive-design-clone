@@ -707,6 +707,12 @@ li.price {
   }
 }
 
+@media (min-width: 882px) {
+  .top-section-wrapper {
+    grid-template-rows: repeat(2, 251px);
+  }
+}
+
 @media (min-width: 1024px) {
   .logo-top {
     display: none;
@@ -720,8 +726,21 @@ li.price {
     padding-left: 10px;
   }
 
+  .top-section-wrapper {
+    grid-template-rows: repeat(2, 266px);
+  }
+
   .main-article {
     background: url(../images/small-logo.svg) 20px 20px/50% no-repeat, linear-gradient(to top, black 10%, transparent), linear-gradient(to right bottom, rgba(255, 68, 34, 1) 20%, transparent), url(../images/Top-section-image-1.png);
+  }
+
+  .main-article .article-title a {
+    font-size: 2.1em;
+  }
+
+  .article-2 .article-title a,
+  .article-3 .article-title a {
+    font-size: 1.2em;
   }
 
   .latest-news {
