@@ -285,7 +285,7 @@ a {
   min-height: 75px;
 }
 
-.latest-news-article>a {
+.latest-news-image-container {
   display: block;
   position: absolute;
   top: 0;
@@ -334,7 +334,7 @@ a {
   margin: 0.7em 0;
 }
 
-.latest-funding-buttons a {
+.latest-funding-button {
   margin-bottom: 0.7em;
   font-size: 1.2em;
   color: #f42;
@@ -414,7 +414,7 @@ a {
   z-index: 1;
 }
 
-.most-popular>a {
+.most-popular > a {
   display: block;
   position: absolute;
   top: 0;
@@ -637,7 +637,7 @@ li.price {
     height: auto;
   }
 
-  .latest-news-article>a {
+  .latest-news-image-container {
     display: block;
     position: relative;
     height: 0;
@@ -766,7 +766,7 @@ li.price {
     justify-self: end;
   }
 
-  .latest-funding-buttons a {
+  .latest-funding-button {
     font-weight: 600;
   }
 
