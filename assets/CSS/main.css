@@ -339,6 +339,7 @@ a {
   font-size: 1.2em;
   color: #f42;
   font-weight: 300;
+  padding-right: 10px;
 }
 
 .latest-funding-article {
@@ -663,6 +664,16 @@ li.price {
 
   .latest-funding-buttons {
     flex-direction: row;
+  }
+
+  .latest-funding-buttons a:nth-child(2) {
+    border-left: 1px solid #f42;
+    border-right: 1px solid #f42;
+    padding-left: 10px;
+  }
+
+  .latest-funding-buttons a:nth-child(3){
+    padding-left: 10px;
   }
 
   /* Topic Sections */
