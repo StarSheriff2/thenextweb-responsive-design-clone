@@ -18,7 +18,7 @@ We applied a mobile first approach in the design, with 4 breakpoints in total.
 
 ## Live Demo
 
-[Live Demo](insert link here to live demo/)
+[Live Demo](https://starsheriff2.github.io/thenextweb-responsive-design-clone/)
 
 ## Authors
 
