@@ -281,9 +281,34 @@ a {
   grid-column: 1 / -1;
 }
 
-.article-content {
-  z-index: 3;
-  align-items: flex-start;
+.latest-news-article {
+  position: relative;
+  padding-left: 85px;
+}
+
+.latest-news-article > a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  padding-top: 75px;
+  width: 75px;
+}
+
+.latest-news-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.latest-news-title {
+  word-wrap: break-word;
+  line-height: 1.25;
 }
 
 .article-content > a {
@@ -308,8 +333,6 @@ a {
 .article-content-caption {
   margin-top: 2px;
   margin-left: 10px;
-  grid-template-rows: 1fr auto;
-  grid-row-gap: 10px;
 }
 
 .ln-published-info {
