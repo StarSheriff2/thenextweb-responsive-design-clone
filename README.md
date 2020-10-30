@@ -30,8 +30,8 @@ We applied a mobile first approach in the design, with 4 breakpoints in total.
 
 👤 **inser partner name here**
 
-- GitHub: [@bhandle](https://github.com/username)
-- LinkedIn: [inser name](https://linkedin.com/in/username)
+- GitHub: [@bAlejandroNo4](https://github.com/AlejandroNo4)
+- LinkedIn: [Alejandro Contreras](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5)
 
 ## Contributing
 
@@ -42,9 +42,3 @@ Feel free to check the [issues page](inser issues page address here).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
