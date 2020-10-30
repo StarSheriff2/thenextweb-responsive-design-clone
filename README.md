@@ -1,12 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# <insert title of project here>
+# Responsive Web Design Project: The Next Web
 
-> <insert brief description here> 
+> This is a Clone of The Next Web site, where responsive, web design principles were applied.
 
-<Insert long description here including what were the projects objectives>.
+In this project we used different responsive web design principles, such as media queries, responsive grids, flex-boxes, and a clear html outline.
 
-![screenshot](./assets/README/#################)
+We applied a mobile first approach in the design, with 4 breakpoints in total.
+
+![screenshot](./assets/README/tnw-responsive-design-screenshot.png)
 
 ## Built With
 
@@ -16,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo](insert link here to live demo/)
+[Live Demo](https://starsheriff2.github.io/thenextweb-responsive-design-clone/)
 
 ## Authors
 
