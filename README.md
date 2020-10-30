@@ -8,6 +8,8 @@ In this project we used different responsive web design principles, such as medi
 
 We applied a mobile first approach in the design, with 4 breakpoints in total.
 
+**Website Screenshot:**
+
 ![screenshot](./assets/README/tnw-responsive-design-screenshot.png)
 
 ## Built With
