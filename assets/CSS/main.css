@@ -362,7 +362,7 @@ a {
 }
 
 .funding-round {
-  color: rgba(00,00,00,0.5);
+  color: rgba(00, 00, 00, 0.5);
 }
 
 .latest-funding-tags {
@@ -758,7 +758,7 @@ li.price {
   .latest-news {
     grid-template-columns: repeat(4, 1fr);
   }
-  
+
   .latest-news-title {
     font-size: 1.3em;
     font-weight: 800;
