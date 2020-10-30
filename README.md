@@ -6,6 +6,8 @@
 
 In this project we used different responsive web design principles, such as media queries, responsive grids, flex-boxes, and a clear html outline.
 
+Background image techniques were used to make the images responsive while keeping their aspect-ratio intact.
+
 We applied a mobile first approach in the design, with 4 breakpoints in total.
 
 **Website Screenshot:**
