@@ -30,7 +30,7 @@ We applied a mobile first approach in the design, with 4 breakpoints in total.
 
 - GitHub: [@StarSheriff2](https://github.com/StarSheriff2)
 - Twitter: [@Turo_83](https://twitter.com/Turo_83)
-- LinkedIn: [Carlos Alvarez](https://www.linkedin.com/in/arturoalvarezv/)
+- LinkedIn: [Arturo Alvarez](https://www.linkedin.com/in/arturoalvarezv/)
 
 👤 **inser partner name here**
 
