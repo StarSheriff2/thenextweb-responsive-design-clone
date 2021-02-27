@@ -18,7 +18,6 @@ We applied a mobile first approach in the design, with 4 breakpoints in total.
 
 - HTML
 - CSS
-- <inser any other technologies or tools used here>
 
 ## Live Demo
 
